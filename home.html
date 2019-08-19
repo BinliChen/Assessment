@@ -3,18 +3,48 @@
  <head>
   <meta charset="utf-8">
   <title>Home page</title>
+  <style>
+  .header{
+    background-color:#ffffff;
+    padding:20px;
+    text-align:center;
+  }
+  .topnav {
+      overflow: hidden;
+      background-color: #f1f2f2;
+  }
+  .topnav a {
+      float: left;
+      display:block;
+      color:#f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  .footer{
+      grid-area: footer;
+      background-color: #414042;
+      padding:10px;
+      text-align: center;
+  }
+  </style>
  </head>
  <body>
-<header>
-    <h2 style="text-align: center">Binli</h2>
-</header>
-<nav><ul>
-    <li><a href="home.html">Illustration</a></li>
-    <li><a href="painting.html">Painting</a></li>
-    <li><a href="animation.html">Aniamtion</a></li>
-    <li><a href="about.hotml">About</a></li>
-</ul></nav>
+<div class="header">
+    <h1>Header</h1>
+</div>
+<div class="topnav">
+    <a href="home.html">Illustration</a>
+    <a href="painting.html">Painting</a>
+    <a href="animation.html">Aniamtion</a>
+    <a href="about.hotml">About</a>
+</div>
+
      <h1>This is heading</h1>
      <p>This is a paragraph.</p>
+
+<div class="footer">
+    <p style="color:#ffffff">Footer</p>
+</div>
  </body>
 </html>
